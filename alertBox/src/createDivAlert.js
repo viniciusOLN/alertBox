@@ -1,9 +1,9 @@
 //creating a div to use and insert all type of data
 
-export class createDivAlert {
+export function createDivAlert() {
     
-    createDiv(){
-
+    let divCreator = function (class_css){
+      newElement = document.createElement("div")
+      
     }
-    
 }

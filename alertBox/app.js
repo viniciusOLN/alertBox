@@ -4,9 +4,17 @@ import { injectCss } from './src/injectCss.js';
 
 //aqui tem que ser uma classe e o resto que tem que ser funções que vão ser chamadas aqui dentro.
 
-export function alertBox(){
-    let a = new createDivAlert();
-    styleBox(5, 4, 3, 2, 1);
+export class alertBox{
+    
+    constructor(){
+      createDivAlert()
+    }
+    
+    style(){
+      styleBox()
+    }
+
+    
     // usar essa função quando o usuário não passar nenhum parâmetro de estilo pro alertBox, assim vai ficar salvo um padrão dentro desse app.css
-    injectCss();
+    //injectCss()
 }

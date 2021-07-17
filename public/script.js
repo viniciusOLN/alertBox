@@ -1,3 +1,4 @@
-import { alertBox } from '../alertBox/app.js';
+import { alertBox } from '../alertBox/app.js'
 
-alertBox();
+const a = new alertBox()
+a.style()

@@ -1,13 +1,13 @@
-import { createDivAlert } from './src/createDivAlert.js';
-import { styleBox } from './src/styleAlertBox.js';
-import { injectCss } from './src/injectCss.js';
+import { createDivAlert } from './src/createDivAlert.js'
+import { styleBox } from './src/styleAlertBox.js'
+import { injectCss } from './src/injectCss.js'
 
 //aqui tem que ser uma classe e o resto que tem que ser funções que vão ser chamadas aqui dentro.
 
 export class alertBox{
     
     constructor(){
-      createDivAlert()
+      createDivAlert('default_class')
     }
     
     style(){

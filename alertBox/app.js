@@ -2,6 +2,8 @@ import { createDivAlert } from './src/createDivAlert.js';
 import { styleBox } from './src/styleAlertBox.js';
 import { injectCss } from './src/injectCss.js';
 
+//aqui tem que ser uma classe e o resto que tem que ser funções que vão ser chamadas aqui dentro.
+
 export function alertBox(){
     let a = new createDivAlert();
     styleBox(5, 4, 3, 2, 1);

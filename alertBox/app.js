@@ -8,11 +8,14 @@ export class alertBox{
     
     constructor(){
       createDivAlert('default_class')
-      injectCss()
     }
     
-    style(){
-      styleBox()
+    style(a, b, c, d){
+      if(a && b && c && d){
+        styleBox()
+      }else{
+          injectCss()
+      }
     }
 
     

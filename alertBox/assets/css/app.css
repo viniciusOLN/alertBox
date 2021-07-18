@@ -1,0 +1,7 @@
+.default_class{
+    min-height: 70px;
+    max-width: 25%;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 10px;
+}

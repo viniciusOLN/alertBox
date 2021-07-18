@@ -8,6 +8,7 @@ export class alertBox{
     
     constructor(){
       createDivAlert('default_class')
+      injectCss()
     }
     
     style(a, b, c, d){
@@ -18,7 +19,18 @@ export class alertBox{
       }
     }
 
-    
+    info(){
+
+    }
+
+    error(){
+
+    }
+
+    success(){
+
+    }
+
     // usar essa função quando o usuário não passar nenhum parâmetro de estilo pro alertBox, assim vai ficar salvo um padrão dentro desse app.css
     //
 }

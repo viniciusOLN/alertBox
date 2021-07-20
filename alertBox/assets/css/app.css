@@ -1,7 +1,21 @@
-.default_class{
-    min-height: 70px;
-    max-width: 25%;
-    background-color: #000;
-    border-radius: 8px;
+.default-class{
+    display: none;
+    color: #fff;
+    max-width: 900px;
+    width: 200px;
+    height: auto;
     padding: 10px;
+    border-radius: 10px;
+    line-height: 20px;
+    background: crimson;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.success{
+    background-color: rgb(32, 192, 32);
 }

@@ -1,34 +1,16 @@
 import { createDivAlert } from './src/createDivAlert.js'
-import { styleBox } from './src/styleAlertBox.js'
 import { injectCss } from './src/injectCss.js'
-
-//aqui tem que ser uma classe e o resto que tem que ser funções que vão ser chamadas aqui dentro.
+import { success } from './src/success.js'
 
 export class alertBox{
     
     constructor(){
-      createDivAlert('default_class')
       injectCss()
+      createDivAlert("default-class")
     }
     
-    style(a, b, c, d){
-      if(a && b && c && d){
-        styleBox()
-      }else{
-          injectCss()
-      }
-    }
-
-    info(){
-
-    }
-
-    error(){
-
-    }
-
-    success(){
-
+    success(message, duration){
+      success(message, duration)
     }
 
     // usar essa função quando o usuário não passar nenhum parâmetro de estilo pro alertBox, assim vai ficar salvo um padrão dentro desse app.css

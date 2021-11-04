@@ -12,7 +12,4 @@ export class alertBox{
     success(message, duration){
       success(message, duration)
     }
-
-    // usar essa função quando o usuário não passar nenhum parâmetro de estilo pro alertBox, assim vai ficar salvo um padrão dentro desse app.css
-    //
 }

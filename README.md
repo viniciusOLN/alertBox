@@ -1,3 +1,3 @@
 # alertBox
 
-Sistema de alertas com javascript
+Sistema de alertas com javascript(em construção)
